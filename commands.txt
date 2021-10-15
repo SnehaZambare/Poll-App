@@ -1,0 +1,8 @@
+python manage.py flush
+python manage.py migrate
+python manage.py createsuperuser
+pip install faker
+python manage.py shell
+import seeder
+seeder.seed_all(30)
+python manage.py runserver

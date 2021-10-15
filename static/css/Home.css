@@ -1,0 +1,22 @@
+html, body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+html{
+    background-image: url("../img/bg1.jpeg");
+    background-color: rgba(51,174,60,255);
+    /* background-position: center; */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    /* position: relative; */
+}
+body {
+    background: rgba(0, 0, 0, 0.466);
+}
+#home-content{
+    padding-top: 20%;
+    padding-left: 10%;
+}
